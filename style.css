@@ -4,15 +4,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    height: 100vh;
+    
 }
 
 .headerlogo {
     font-size: 24px;
     color: #f9faf8;
     margin: 0;
-    padding: 0;
-    
-    
+    padding: 0;    
 }
 
 ul {
@@ -22,7 +22,6 @@ ul {
     padding: 0;
     margin: 0;
     gap: 20px;
-
 }
 
 a {
@@ -41,7 +40,6 @@ a {
 .hero-image {
     height: auto;
     width: 400px;
-
 }
 
 .hero-text {
@@ -79,6 +77,60 @@ a {
     
 }
 
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 60px;
+}
+
+.random-info {
+    display: flex;
+    margin: 24px;
+    justify-content: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+}
+
+.subtext {
+    text-align: center;  
+}
+
+.quoteblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #e5e7eb;
+    margin-bottom: 40px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    max-width: 800px;
+    margin-bottom: 0;
+}
+
+.quote-thor {
+    margin-left: 36.5em;
+    
+    
+
+}
+
+
 
 .sign-up {
     background: #3882f6;
@@ -93,6 +145,6 @@ a {
 
 .small {
     height: auto;
-    width: 100px;   
+    width: 150px;   
 }
 
