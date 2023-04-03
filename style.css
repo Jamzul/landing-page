@@ -40,6 +40,8 @@ a {
 .hero-image {
     height: auto;
     width: 400px;
+    border: 2px solid #3882f6;
+    border-radius: 6px;
 }
 
 .hero-text {
@@ -125,9 +127,6 @@ a {
 
 .quote-thor {
     margin-left: 36.5em;
-    
-    
-
 }
 
 
@@ -145,6 +144,9 @@ a {
 
 .small {
     height: auto;
-    width: 150px;   
+    width: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 6px;
+
 }
 
