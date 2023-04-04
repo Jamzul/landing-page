@@ -55,14 +55,16 @@ a {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    padding: 10px 400px;
+    padding: 10px;
+    
 }
 
-.headlogo {
+.nav-logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 100px;
+    margin-bottom: 50px;
+    padding: 0 100px;
 
 }
 
@@ -70,14 +72,16 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 100px;
     padding-bottom: 100px;
+    
 }
 
 .hero-content {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
+
 
 .content {
     display: flex;
